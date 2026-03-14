@@ -1,0 +1,8 @@
+for port in range(20, 25):
+    try:
+        s = socket.socket()
+        s.settimeout(0.5)
+        s.connect(("127.0.0.1", port))
+        print(f"Port {port} open")
+    except:
+        pass
