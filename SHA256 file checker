@@ -1,0 +1,4 @@
+import hashlib
+def file_hash(filename):
+    h = hashlib.sha256(open(filename,"rb").read()).hexdigest()
+    print(h)
