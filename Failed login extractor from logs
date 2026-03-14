@@ -1,0 +1,2 @@
+with open("auth.log") as f:
+    print([line for line in f if "failed" in line.lower()])
