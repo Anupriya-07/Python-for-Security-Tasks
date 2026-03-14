@@ -1,0 +1,4 @@
+passwords = ["1234", "password", "admin"]
+for pwd in passwords:
+    if pwd == "admin":
+        print("Password found:", pwd)
